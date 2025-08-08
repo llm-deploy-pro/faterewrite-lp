@@ -1,5 +1,4 @@
 // 文件位置: src/components/whitefire/Hero.tsx
-// Step 2: Visual Psychology Implementation with Deep Blue to Purple Gradients
 
 import BackgroundPatterns from './BackgroundPatterns';
 
@@ -78,8 +77,11 @@ const Hero = () => {
             
             {/* Premium CTA button with gradient and glow effect */}
             <div className="mt-6">
+              {/* 精准修改: href="#authorize" -> "https://secure.faterewrite.com" */}
               <a 
-                href="#authorize" 
+                href="https://secure.faterewrite.com"
+                target="_blank" 
+                rel="noopener noreferrer" 
                 className="inline-block relative group"
               >
                 <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>

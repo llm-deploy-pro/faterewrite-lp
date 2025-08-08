@@ -1,5 +1,4 @@
-// File location: src/components/whitefire/WhatYouReceive.tsx
-// Step 2: Visual Psychology Enhancement with Cognitive Theme
+// 文件位置: src/components/whitefire/WhatYouReceive.tsx
 
 import { CheckCircle2, FileText, Brain, Target, TrendingUp, Shield, Clock } from 'lucide-react';
 
@@ -144,8 +143,11 @@ const WhatYouReceive = () => {
         
         {/* Enhanced CTA with gradient and glow */}
         <div className="mt-8 text-center">
+          {/* 精准修改: href="#authorize" -> "https://secure.faterewrite.com" */}
           <a 
-            href="#authorize" 
+            href="https://secure.faterewrite.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block relative group"
           >
             <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-40 transition duration-200"></div>

@@ -46,7 +46,6 @@ const Header = () => {
         </a>
       </li>
       <li>
-        {/* 修正: 更新联系邮箱地址 */}
         <a href="mailto:support@faterewrite.com" className="block py-2 text-gray-600 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 transition-all duration-300">
           Contact
         </a>
@@ -91,8 +90,11 @@ const Header = () => {
                 </ul>
               </nav>
               {/* Gradient CTA button */}
+              {/* 精准修改: href="#authorize" -> "https://secure.faterewrite.com" */}
               <a 
-                href="#authorize" 
+                href="https://secure.faterewrite.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="relative group"
               >
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur opacity-30 group-hover:opacity-50 transition duration-200"></div>
@@ -104,8 +106,11 @@ const Header = () => {
 
             {/* Mobile menu with gradient mini CTA */}
             <div className="md:hidden flex items-center space-x-3">
+              {/* 精准修改: href="#authorize" -> "https://secure.faterewrite.com" */}
               <a 
-                href="#authorize" 
+                href="https://secure.faterewrite.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-1.5 px-3 rounded text-sm shadow-sm"
               >
                 $49
@@ -128,8 +133,11 @@ const Header = () => {
               <ul className="space-y-1">
                 {navLinks}
               </ul>
+              {/* 精准修改: href="#authorize" -> "https://secure.faterewrite.com" */}
               <a 
-                href="#authorize" 
+                href="https://secure.faterewrite.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-4 block w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-2 px-4 rounded-lg text-center shadow-lg"
               >
                 Authorize Your Diagnostic – $49
@@ -146,8 +154,11 @@ const Header = () => {
             ? 'bottom-32 opacity-50' 
             : 'bottom-6 opacity-100'
         } right-6 animate-fade-in-up`}>
+          {/* 精准修改: href="#authorize" -> "https://secure.faterewrite.com" */}
           <a 
-            href="#authorize" 
+            href="https://secure.faterewrite.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="relative group"
           >
             <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-50 group-hover:opacity-75 transition duration-200 animate-pulse-slow"></div>
@@ -162,8 +173,11 @@ const Header = () => {
       {/* Alternative: Minimized floating button when near footer */}
       {showFloatingCTA && nearFooter && (
         <div className="fixed bottom-6 right-6 z-40 animate-fade-in">
+          {/* 精准修改: href="#authorize" -> "https://secure.faterewrite.com" */}
           <a 
-            href="#authorize" 
+            href="https://secure.faterewrite.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="relative group"
           >
             <button className="relative bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 group-hover:w-auto group-hover:px-4">
